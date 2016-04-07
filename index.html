@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1024" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title> Hyman's Utopia</title>
+<link
+	href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+	rel="stylesheet" />
+<link href="css/impress.css" rel="stylesheet" />
+<link rel="shortcut icon" href="icon.jpg" />
+</head>
+
+<body class="impress-not-supported">
+	<!-- 	背景音乐 -->
+	<audio autoplay="autopaly">
+		<source src="music/canon.mp3" type="audio/mp3">
+	</audio>
+
+	<div class="fallback-message">
+		<p>
+			您的浏览器 <b>不支持</b> impress.js的展示要求, 将为您呈现简化版的展示
+		</p>
+		<p>
+			为了获取最佳效果，请使用最新版的<b>Chrome</b>, <b>Safari</b> 或 <b>Firefox</b> 浏览器
+		</p>
+	</div>
+
+	<div id="impress">
+
+		<div id="welcome" class="step" data-x="-2000" data-y="-2500">
+			<p>欢迎访问</p>
+			<p>
+				<span class="title"><b>Hyman's Utopia</b></span>
+			</p>
+			<p>
+				<span class="footnote">我叫沈鸿斌，这是我的个人主页</span>
+			</p>
+		</div>
+
+		<div id="definition" class="step" data-x="0" data-y="-2500">
+			<ul>
+				<li><b class="enjoy">享受编程</b></li>
+				<li><b class="dream">梦想成为有趣的Geek</b></li>
+				<li><b class="it">IT不宅男</b></li>
+			</ul>
+			<h1>
+				<b>是我对自己的定义</b>
+			</h1>
+		</div>
+
+		<div id="hobbies" class="step" data-x="850" data-y="3000"
+			data-rotate="90" data-scale="3">
+			<p>
+				<b>野球场上打铁再多</b>
+			</p>
+			<p>
+				<b><span class="ball">也不“把球给我我要回家”</span></b>
+			</p>
+			<p>
+				<b>偶尔也弹弹吉他曲</b>
+			</p>
+			<p>
+				<b><span class="young">假装一把文艺青年</span></b>
+			</p>
+			<p>
+				<b><span class="footnote">/*其实我爱好挺广泛的*/</span></b>
+			</p>
+		</div>
+
+		<div id="school" class="step" data-x="3500" data-y="2100"
+			data-rotate="180" data-scale="4">
+			<p>
+				<b>就读于南京大学软件学院</b>
+			</p>
+			<p>
+				<b>代码世界就是我的乌托邦</b>
+			</p>
+		</div>
+		
+		<div id="dif" class="step" data-x="1000" data-y="0"
+			data-rotate="180" data-scale="4">
+			<p>
+				期待着<b class="hope">这个世界</b>
+			</p>
+			<p>
+				因为<b class="word">我写的字符</b>
+			</p>
+			<p>
+				而有一点点的<b class="bit">不同</b>
+			</p>
+		</div>
+		
+
+		<div id="thx" class="step" data-x="-100" data-y="2900" data-z="900"
+			data-rotate="-90" data-scale="5">
+			<p>
+				<b>感激日后赖以生存的,是我所热爱的</b>
+			</p>
+		</div>
+
+		<div id="findme" class="step" data-x="-6000" data-y="1000"
+			data-scale="4">
+			<p>
+			     我正在用博客记录我的学习历程</a>
+			</p>
+			<q>欢迎您访问<a href="http://blog.csdn.net/u012422829" target="_blank">我的CSDN博客</a>并给出指导</q>
+		</div>
+
+		<div id="back" class="step" data-x="-6000" data-y="5200"
+			data-scale="2">
+			<p>谢谢您的来访</p>
+			<p>
+				点击<a href="http://hyman1994.com">这里</a>返回Hyman's Utopia
+			</p>
+		</div>
+
+		<div id="overview" class="step" data-x="0" data-y="2500"
+			data-scale="16"></div>
+
+	</div>
+
+	<div class="hint">
+		<p>使用空格或→继续</p>
+	</div>
+	<script>
+		if ("ontouchstart" in document.documentElement) {
+			document.querySelector(".hint").innerHTML = "<p>使用空格或→继续</p>";
+		}
+	</script>
+
+
+	<script src="js/impress.js"></script>
+	<script>
+		impress().init();
+	</script>
+
+</body>
+</html>

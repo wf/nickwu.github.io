@@ -3,17 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Nick's Blog
+subtitle: Keep it simple and beautyful
+description: Make it smart
+author: Nick Wu
+email: nickdev@126.com
+language: zh-Hans
+timezone: Asia/Shanghai
+keywords: [android, github, 技术博客, 移动开发, 嵌入式开发, embedded]
+avatar: /images/logo.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://nickwu.net
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -40,7 +43,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -63,9 +66,24 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+## theme: landscape
+## theme: pacman
+## theme: modernist
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:wf/wf.github.io.git
+  branch: master
+
+search:
+  path: search.xml
+  field: post
+
+sitemap:
+  path: sitemap.xml
+
+feed:
+  path: atom.xml

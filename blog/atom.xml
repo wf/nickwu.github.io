@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://nickwu.net/"/>
-  <updated>2016-08-21T06:40:32.869Z</updated>
+  <updated>2016-09-04T01:21:47.609Z</updated>
   <id>http://nickwu.net/</id>
   
   <author>
@@ -16,11 +16,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Tomgrok - 快捷构建自己的代码查询库</title>
+    <link href="http://nickwu.net/2016/09/04/tomgrok/"/>
+    <id>http://nickwu.net/2016/09/04/tomgrok/</id>
+    <published>2016-09-03T23:37:32.000Z</published>
+    <updated>2016-09-04T01:21:47.609Z</updated>
+    
+    <content type="html"><![CDATA[<p>用过 LXR 可能了解到在 Linux Kernel 上使用交叉索引查询有多么的方便。现在有一个工具 <a href="https://github.com/wongdao/tomgrok" title="Tomgrok Github" target="_blank" rel="external">Tomgrok</a> 能方便快捷的管理自己的代码库，构建交叉索引查询。</p>
+<p>引自：<a href="https://github.com/wongdao/tomgrok" title="Tomgrok Github" target="_blank" rel="external">Tomgrok</a></p>
+<blockquote>
+<p>Tomgrok 是基于对 OpenGrok 和 Apache Tomcat 包装的一套脚本，致力于打造方便易用的源代码库，以提供对源代码进行 Web 式交叉索引查询。开箱即用，使用简单命令就能配置好 Apache Tomcat + OpenGrok，而无需对他们进行过多了解。OpenGrok 基本支持现在大部分语言，如 C、C++、Java、Javascript 等，具体详见：OpenGrok Supported Languages and Formats。</p>
+</blockquote>
+<p>用法很简单，不需要了解 OpenGrok，直接通过 create 创建一个 Context（Webapp），再用 link 或 copy 将各个项目加进来，然后用 index 更新索引，用 tomgrok startup 启动 Web 服务即可。具体使用方法，请查看<a href="https://github.com/wongdao/tomgrok" title="Tomgrok Github" target="_blank" rel="external">Tomgrok</a>。</p>
+<p>自已可以建一些分类，比如将一些小的项目放到一个 Context，大的项目可以单独放。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用过 LXR 可能了解到在 Linux Kernel 上使用交叉索引查询有多么的方便。现在有一个工具 &lt;a href=&quot;https://github.com/wongdao/tomgrok&quot; title=&quot;Tomgrok Github&quot; target=&quot;_blank&quot; re
+    
+    </summary>
+    
+      <category term="tools" scheme="http://nickwu.net/categories/tools/"/>
+    
+    
+      <category term="bash" scheme="http://nickwu.net/tags/bash/"/>
+    
+      <category term="tools" scheme="http://nickwu.net/tags/tools/"/>
+    
+      <category term="efficiency" scheme="http://nickwu.net/tags/efficiency/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello Blog</title>
     <link href="http://nickwu.net/2016/08/20/hello-blog/"/>
     <id>http://nickwu.net/2016/08/20/hello-blog/</id>
     <published>2016-08-20T09:18:32.000Z</published>
-    <updated>2016-08-21T06:40:32.869Z</updated>
+    <updated>2016-08-21T07:49:18.721Z</updated>
     
     <content type="html"><![CDATA[<p>考虑了几个方案，最终还是决定使用 Hexo + github page 的方式，既方便、省钱又有好的服务。</p>
 <p>简单地记录下使用过程：</p>
